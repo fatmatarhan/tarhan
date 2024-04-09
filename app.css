@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://cdn.r10.net/editor/115698/1379132236.jpeg);
+    color: white;
+    
+}
+
+h2{
+    font-family: "sorts mill goudy", serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#nt{
+    color: white;
+}
+
+span{
+    color: red;
+}
+
+form{
+    display:block
+}
+
+#container {
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 30px 100px;
+    text-align: center;
+  }
+
+textarea{
+    display: inline-block;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    background-color: white;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: normal;
+    letter-spacing: normal;
+    text-transform: none;
+    text-align: start;
+    overflow: break-word;
+    color: black;
+}
+
+#feedback{
+    text-align: left;
+}
+
+#box{
+    margin:auto;
+    padding-top: 10px;
+    background-color: rgba(0,0,0,0.8);
+    width: 500px;
+    height: auto;
+    
+}
+
+.box{
+    margin-top: 14px;
+    margin-left: 40px;
+}
+
+div{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+label{
+    cursor: default;
+}
+
+#name, #number, #email, #content{
+    margin-top: 12px;
+    width: 400px;
+    height: 35px;
+    padding: 8px;
+}
+
+input[type="text"]{
+    padding-block: 1px;
+    padding-inline: 2px;
+    display: inline-block;
+    text-align: start;
+    text-transform: none;
+    text-shadow: none;
+    letter-spacing: normal;
+    
+
+
+}
+
+input[type="checkbox"]{
+    cursor: default;
+    background-color: initinal;
+    border: initial;
+    appearance: auto;
+}
+
+    
+
+ .movie{
+/* text-align: left; */
+justify-content: flex-start;
+}
+
+#submit {
+    background-color: red;
+    font-size: larger;
+    height: 45px;
+    width: 160px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 16px 0px 16px 150px;
+  }
+
+  #submit:hover {
+    background-color: white;
+    color: red;
+  }
